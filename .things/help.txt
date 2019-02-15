@@ -1,0 +1,5 @@
+commands
+ generate {filename}
+ remove   {filename}
+ build {target_name}
+ run   {target_name}
