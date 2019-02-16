@@ -4,7 +4,7 @@ function help (){
   cat ./.things/help.txt
 }
 function generate () {
-    echo "generate $1.cpp $1.hpp \n" &&
+    echo "generate $1.cpp $1.hpp" &&
     touch ${PWD}/src/$1.cpp &&
     touch ${PWD}/include/$1.hpp &&
     echo '#include "./'$1'.hpp"' >> ./include/module.hpp
