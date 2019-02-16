@@ -3,16 +3,16 @@
 ### directory tree
 example file tree
 
+```
 ├── include
-│   ├── fire_function.hpp
-│   ├── matrix.hpp
+│   ├── test.hpp
 │   └── module.hpp
-├── makefile
-├── net
 └── src
-    ├── fire_function.cpp
-    ├── matrix.cpp
-    └── net.cpp
+│    ├── test.cpp
+│    └── main.cpp
+├── makefile
+└── test
+```
 
 include: header files
 src    : cpp files
