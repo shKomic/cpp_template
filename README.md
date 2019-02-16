@@ -19,7 +19,7 @@ src    : cpp files
 
 ### userage
 commands
-  `source .cppproj`    : prepare commands
+  `source .env.sh`    : prepare commands
 
  - `generate {filename}` : make files (.cpp, .hpp)
  - `remove   {filename}` : delete files
