@@ -21,8 +21,7 @@ src    : cpp files
 commands
   `source .cppproj`    : prepare commands
 
-  `generate {filename}` : make files (.cpp, .hpp)
-  `remove   {filename}` : delete files
-  `build`               : build project
-  `run`                 : run   project
-
+ - `generate {filename}` : make files (.cpp, .hpp)
+ - `remove   {filename}` : delete files
+ - `build`               : build project
+ - `run`                 : run   project
